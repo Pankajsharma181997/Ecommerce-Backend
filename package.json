@@ -1,0 +1,26 @@
+{
+  "name": "mern-ecommerce-backend",
+  "version": "1.0.0",
+  "description": "This is a flipkart clone project",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/index.server.js"
+  },
+  "keywords": [
+    "ecommenrce"
+  ],
+  "author": "Pankaj Sharma",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.19.0",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-validator": "^6.12.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.12.14"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
